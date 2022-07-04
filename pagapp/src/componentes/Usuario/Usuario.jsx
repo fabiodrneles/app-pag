@@ -9,7 +9,7 @@ return (
       <div className='conteudo'>
         <div className='conteudo-container'>
           <div className='conteudo-esquerdo'>
-            <img src={img} />
+            <img src={img} alt="alguma coisa"/>
             <div className='dados'>
               <h4>
                 {name}

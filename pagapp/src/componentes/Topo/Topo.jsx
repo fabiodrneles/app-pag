@@ -8,7 +8,7 @@ class Topo extends Component {
             <>
             <div className='header'>
                 <div className='container'>
-                    <div className='logo'><img src={Logo}/></div>
+                    <div className='logo'><img src={Logo} alt="algumacoisa"/></div>
                     <h1>Aplicativo de envio de dinheiro</h1>
                 </div>
             </div>

@@ -46,7 +46,7 @@ function Modal({ onClose, children }) {
       <div className="janela">
         <div className='pagamento-nome'>
           <div className='janela-fechar'>
-            <button onClick={onClose}><img src={fechar} /></button>
+            <button onClick={onClose}><img src={fechar} alt="" /></button>
           </div>
           <div className='recebedor'>Pagamento para: <span>{children}</span> </div>
         </div>
