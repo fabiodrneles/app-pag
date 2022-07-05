@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import './topo.css';
-import Logo from './logoApp.png'
+import Logo from './LogoApp.png'
 
 class Topo extends Component {
     render(){
@@ -9,7 +9,7 @@ class Topo extends Component {
             <div className='header'>
                 <div className='container'>
                     <div className='logo'><img src={Logo} alt="algumacoisa"/></div>
-                    <h1>Aplicativo de envio de dinheiro</h1>
+                    <h1>Pag | APP</h1>
                 </div>
             </div>
             </>

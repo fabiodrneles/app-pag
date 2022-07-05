@@ -4,7 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
-NUL .npmignore
+.npmignore
 
 # testing
 /coverage

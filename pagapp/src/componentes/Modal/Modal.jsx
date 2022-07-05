@@ -5,7 +5,7 @@ import { cartoes } from '../Cartao/Cartao';
 import './modal.css';
 
 function Modal({ onClose, children }) {
-  const [pagamento, setPagamento] = useState(false);
+  const [pay, setPagamento] = useState(false);
 
   const dadosCartaoDeCredito = async (evento) => {
     evento.preventDefault();
